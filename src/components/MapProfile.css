@@ -1,0 +1,23 @@
+.mapProfile {
+  width: 200px;
+}
+
+.mapProfile a {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mapProfile a>img {
+  width: inherit;
+  height: 200px;
+  object-fit: cover;
+}
+
+.nom {}
+
+.description {}
+
+.tarif {}

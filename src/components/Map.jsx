@@ -1,5 +1,6 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
-import img from "../images/img.webp"
+import "./Map.css"
+import MapProfile from "./MapProfile";
 
 function Map() {
   return (
@@ -10,10 +11,7 @@ function Map() {
       />
       <Marker position={[51.505, -0.09]}>
         <Popup>
-          <img src={img} alt="" />
-          <h1>Nom</h1>
-          <p>description...</p>
-          <a href="">Voir le profilc</a>
+          <MapProfile />
         </Popup>
       </Marker>
     </MapContainer>
